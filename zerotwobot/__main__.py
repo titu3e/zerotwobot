@@ -79,7 +79,7 @@ Type /help to get available commands.
 
 HELP_STRINGS = """
 Hey there!.
-My Name is {}, from Darling in The FranXX. Take me as your group's darling to have fun with me. \
+My Name is {}, from MAH. Take me as your group's HERO to have fun with me. \
 I can help you with the following commands.
 
 *Main* commands available:
@@ -97,12 +97,12 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ZEROTWO_IMG = "https://telegra.ph/file/3a09ae55283b69f3da197.jpg"
+ZEROTWO_IMG = "https://telegra.ph/file/9c5b803ae702a07d3c727.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @joker_hacker_6521 \
+ You can support the project by contacting @Sungjinwooarc \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @jokers_botsupport."""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @ifoejeje."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -228,27 +228,27 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🚑 Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                url=f"https://t.me/ifoejeje",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates",
-                                url="https://t.me/jokers_botupdates",
+                                url="https://t.me/ifoejeje",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting Started",
-                                url="https://t.me/jokers_botupdates/4",
+                                url="https://t.me/ifoejeje",
                             ),
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/jokershacker22/zerotwobot",
+                                url="https://github.com/titu3e/midoriya",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🃏 Clown Sec",
-                                url="https://t.me/okatu_gang",
+                                url="https://t.me/ifoejeje",
                             ),
                         ],
                     ],
