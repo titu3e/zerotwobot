@@ -14,27 +14,27 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "awoo"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 12345  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "joker_hacker_6521"
-    SUPPORT_CHAT = "jokers_botsupport"  # Your own group for support, do not add the @
+    API_ID = 8626831  # integer value, dont use ""
+    API_HASH = "db23330a6edf4a517ee186b35cedec71"
+    TOKEN = "2026481954:AAHB2_YJ0TlgY9IuLrXnxAcibHlG9ifBDP0"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 1593338093  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "Sungjinwooarc"
+    SUPPORT_CHAT = "ifoejeje"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -23456
+        -1001674833365
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1234567
+        -1001674833365
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "mongodb+srv://cluster0.r2c3m.mongodb.net/myFirstDatabase"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "Xwk6NIJa_StwddnrYJnS0SVA~R~DFvdZJZol_Co_gkR8dNTutMWY75FyU7qg9qG0"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
@@ -55,12 +55,12 @@ class Config(object):
     WORKERS = (
         8  # Number of subthreads to use. Set as number of threads your processor uses
     )
-    BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
+    BAN_STICKER = "CAACAgIAAxkBAAOoYWwf4MQ20GsBOlyGzkQkzIPNYT0AAlQFAAJl_5IKS9xpQtMC4TkhBA"  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     CASH_API_KEY = (
-        "awoo"  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "NEWU89LO9Y5169R"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = "awoo"  # Get your API key from https://timezonedb.com/api
+    TIME_API_KEY = "8RLOW7FIQ5BV"  # Get your API key from https://timezonedb.com/api
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
